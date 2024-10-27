@@ -9,29 +9,30 @@
 <body>
     <div class="pai">
         <div class="calculadora">
+            <h1>Calculadora</h1>
             <div class="result"></div>
             <div class="buttons">
                 <div class="button-nums">
-                    <div class="btn bnt1">1</div>
-                    <div class="btn bnt2">2</div>
-                    <div class="btn bnt3">3</div>
-                    <div class="btn bnt4">4</div>
-                    <div class="btn bnt5">5</div>
-                    <div class="btn bnt6">6</div>
-                    <div class="btn bnt7">7</div>
-                    <div class="btn bnt8">8</div>
-                    <div class="btn bnt9">9</div>
-                    <div class="btn bnt0">0</div>
-                    <div class="btn bntp">.</div>
+                    <div onclick="insert('1')" class="btn bnt1">1</div>
+                    <div onclick="insert('2')" class="btn bnt2">2</div>
+                    <div onclick="insert('3')" class="btn bnt3">3</div>
+                    <div onclick="insert('4')" class="btn bnt4">4</div>
+                    <div onclick="insert('5')" class="btn bnt5">5</div>
+                    <div onclick="insert('6')" class="btn bnt6">6</div>
+                    <div onclick="insert('7')" class="btn bnt7">7</div>
+                    <div onclick="insert('8')" class="btn bnt8">8</div>
+                    <div onclick="insert('9')" class="btn bnt9">9</div>
+                    <div onclick="insert('0')" class="btn bnt0">0</div>
+                    <div onclick="insert('.')" class="btn bntp">.</div>
                 </div>
                 <div class="button-op">
-                    <div class="btn bntseta"><</div>
-                    <div class="btn bntC">C</div>
-                    <div class="btn bntbarra">/</div>
-                    <div class="btn bntmult">*</div>
-                    <div class="btn bntmenos">-</div>
-                    <div class="btn bntmais">+</div>
-                    <div class="btn bntigual">=</div>
+                    <div onclick="back()" class="btn bntseta"><</div>
+                    <div onclick="del()" class="btn bntC">C</div>
+                    <div onclick="insert('/')" class="btn bntbarra">/</div>
+                    <div onclick="insert('*')" class="btn bntmult">*</div>
+                    <div onclick="insert('-')" class="btn bntmenos">-</div>
+                    <div onclick="insert('+')" class="btn bntmais">+</div>
+                    <div onclick="calcular()" class="btn bntigual">=</div>
                     
                 </div>
             </div>
